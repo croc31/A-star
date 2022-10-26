@@ -29,8 +29,8 @@ vector<Node*> saida;
 
 bool ComparaNode (const Node* first, const Node* second)
 {
-    if((first->min_cost + first->heuristic) == (second->min_cost + second->heuristic)){
-        return (first->min_cost + first->heuristic) == (second->min_cost + second->heuristic);
+    if((first->min_cost + first->heuristic) != (second->min_cost + second->heuristic)){
+        return (first->min_cost + first->heuristic) < (second->min_cost + second->heuristic);
     }else{
         return ( first->value < second->value );
     }
@@ -71,6 +71,7 @@ void AEstrela(int start, int end){
         }
         //ordenando os nós
         abertos.sort(ComparaNode);
+        abertos.unique();
         //teste de fim de ciclo
         if(nodeAtual == controle[end]){
             caminhoEncontrado = true;
