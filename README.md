@@ -1,6 +1,6 @@
+<h1 align="center"> A-star </h1>
 
 <p align="center">
-  # A-star
   <a href="#sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#como-rodar">Como rodar?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#licença-e-autor">Licença e Autor</a>
