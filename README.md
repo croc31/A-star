@@ -26,7 +26,7 @@ $ cd A-star
 $ g++ -o A A*.cpp -Wall
 
 # Execute a aplicação
-$ cd ./A
+$ ./A
 
 ```
 
