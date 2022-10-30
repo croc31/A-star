@@ -1,40 +1,40 @@
 <h1 align="center"> A-star </h1>
 
 <p align="center">
-  <a href="#sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#como-rodar">Como rodar?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#licença-e-autor">Licença e Autor</a>
+  <a href="#about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#how-to-execute">How to execute?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#license-and-author">License and author</a>
 </p>
 
-## Sobre
-Projeto desenvolvido como solução do problema <a href = "https://www.codingame.com/ide/puzzle/a-star-exercise"> A-star Exercise <a> do site <a href="https://www.codingame.com/home"> Codingame<a>.
-Este projeto é uma aplicação do algoritmo de A estrela, muito utilizado na aplicação da terioa dos grafos em jogos, este projeto recebe a descrição de um grafo e retorna uma lista de movimentações feitas pelo algoritmo durante sua execução.
+## About
+Project developed as solution to <a href = "https://www.codingame.com/ide/puzzle/a-star-exercise"> A-star Exercise <a> problem from the site <a href="https://www.codingame.com/home"> Codingame<a>.
+  This project  is a A-star aplicacion, common use of grafh theory in game design, the execution recieves as input the description of a graph e returns a list of nodes visited during the execution of the program. 
   
 
-## Como rodar?
+## How to execute?
 
-Execute os comandos no seu terminal:
+Execute the following comands in your terminal:
 
 ```bash
-# Clone o repositório
+# Clone the repositorie
 $ git clone https://github.com/croc31/A-star.git
 
-# Entre no diretório baixado
+# Go to the new diretorie
 $ cd A-star
 
-# compile o arquivo
+# Compile the file
 $ g++ -o A A*.cpp -Wall
 
-# Execute a aplicação
-$ cd ./A
+# Execute the aplicacion
+$ ./A
 
 ```
 
-## Licença e Autor
+## License and author
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/croc31/move.it/blob/main/LICENSE) para mais detalhes.
+This project is under the MIT license. See the file [LICENSE](https://github.com/croc31/move.it/blob/main/LICENSE) para mais detalhes.
 
-Feito com dedicação e esforço por [Clauber Câmara](https://github.com/croc31).
+Done with dedicacion by [Clauber Câmara](https://github.com/croc31).
 
 
 [![Linkedin Badge](https://img.shields.io/badge/-Clauber_Rogério_de_Oliveira_Câmara-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/clauber-câmara-778057152)](https://www.linkedin.com/in/clauber-câmara-778057152)
